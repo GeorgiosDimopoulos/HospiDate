@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace TYPETAppointmentWebApp.Controllers
+namespace HospiDate.Controllers
 {
-    public class TypetAppointmentController : Controller
+    public class HospiDateController : Controller
     {
         // 
         // GET: /HelloWorld/
