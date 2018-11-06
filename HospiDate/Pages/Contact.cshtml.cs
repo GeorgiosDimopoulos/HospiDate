@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace TYPETAppointmentWebApp.Pages
+namespace HospiDate.Pages
 {
-    public class AboutModel : PageModel
+    public class ContactModel : PageModel
     {
         public string Message { get; set; }
 
         public void OnGet()
         {
-            Message = "Πλατφόρμα για online κλείσιμο με ιατρούς στο Τ.Υ.Π.Ε.Τ.";
+            //Message = "Your contact page.";
         }
     }
 }

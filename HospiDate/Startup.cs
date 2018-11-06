@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace TYPETAppointmentWebApp
+namespace HospiDate
 {
     public class Startup
     {
@@ -53,13 +53,6 @@ namespace TYPETAppointmentWebApp
             app.UseCookiePolicy();
 
             app.UseMvc();
-
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
         }
     }
 }
